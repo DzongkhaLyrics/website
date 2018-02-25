@@ -1,0 +1,34 @@
+<div id="header">
+	<ul class="navbar-nav mr-auto">
+		<li་><a href="">ཀ</a></li>
+		<li><a href="">ཁ</a></li>
+		<li><a href="">ག</a></li>
+		<li><a href="">ང</a></li>
+		<li><a href="">ཅ</a></li>
+		<li><a href="">ཆ</a></li>
+		<li><a href="">ཇ</a></li>
+		<li><a href="">ཉ</a></li>
+		<li><a href="">ཏ</a></li>
+		<li><a href="">ཐ</a></li>
+		<li><a href="">ད</a></li>
+		<li><a href="">ན</a></li>
+		<li><a href="">པ</a></li>
+		<li><a href="">ཕ</a></li>
+		<li><a href="">བ</a></li>
+		<li><a href="">མ</a></li>
+		<li><a href="">ཙ</a></li>
+		<li><a href="">ཚ</a></li>
+		<li><a href="">ཛ</a></li>
+		<li><a href="">ཝ</a></li>
+		<li><a href="">ཞ</a></li>
+		<li><a href="">ཟ</a></li>
+		<li><a href="">འ</a></li>
+		<li><a href="">ཡ</a></li>
+		<li><a href="">ར</a></li>
+		<li><a href="">ལ</a></li>
+		<li><a href="">ཤ</a></li>
+		<li><a href="">ས</a></li>
+		<li><a href="">ཧ</a></li>
+		<li><a href="">ཨ</a></li>
+	</ul>
+</div>
