@@ -17,4 +17,30 @@
 
 Route::get('/',function(){
 	return view('home');
-});
+})->name('home');
+
+Route::get('/contact_us',function(){
+	return view('contact');
+})->name('contact_us');
+
+Route::get('/submit_lyrics',function(){
+	return view('submit');
+})->name('submit_lyrics');
+
+Route::get('/lyrics',function(){
+	return view('song');
+})->name('lyrics');
+
+
+Route::get('/privacy_policy',function(){
+	return view('privacy');
+})->name('privacy_policy');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

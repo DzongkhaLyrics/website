@@ -1,17 +1,43 @@
 @extends('layouts.master')
+@section('title')
+	གདོང་ཤོག
+@endsection
 @section('content')
-<div>
-	<center>
-		<p>༼ ༽</p>
-	</center>
-	<center>
-		<p>འབྲུག་ཙན་དན་</p>
-		<p> འབྲུག་ཙན་དན་བཀོད་པའི་རྒྱལ་ཁབ་ནང་།། དཔལ་ལུགས་གཉིས་བསྟན་སྲིད་
-		སྐྱོང་བའི་མགོན་།།</p>
-		<p>འབྲུག་རྒྱལ་པོ་མངའ་བདག་རིན་པོ་ཆེ་།། སྐུ་འགྱུར་མེད་བརྟན་ཅིང་ཆབ་
-		སྲིད་འཕེལ་།།</p>
-		<p>ཆོས་སངས་རྒྱས་བསྟན་པ་དར་ཞིང་རྒྱས་།། འབངས་བདེ་སྐྱིད་ཉི་མ་ཤར་བར་
-		ཤོག་།།</p>
-	</center>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-6 col-centered">
+			<h1 style="padding-left: 25%;">༼ རྒྱལ་པོའི་བརྟན་བཞུགས ༽</h1>
+			<p> འབྲུག་ཙན་དན་བཀོད་པའི་རྒྱལ་ཁབ་ནང་།། དཔལ་ལུགས་གཉིས་བསྟན་སྲིད་སྐྱོང་བའི་མགོན་།།</p>
+			<p>འབྲུག་རྒྱལ་པོ་མངའ་བདག་རིན་པོ་ཆེ་།། སྐུ་འགྱུར་མེད་བརྟན་ཅིང་ཆབ་སྲིད་འཕེལ་།།</p>
+			<p>ཆོས་སངས་རྒྱས་བསྟན་པ་དར་ཞིང་རྒྱས་།། འབངས་བདེ་སྐྱིད་ཉི་མ་ཤར་བར་ཤོག་།།</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-centered">
+			<h1>༼ གླུ་གཞས་གསརཔ ༽</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<img src="images/logo.png" height="200px" width="200px">
+			<p>Tshering Samdrup</p>
+			<p>GURMA</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/logo.png" height="200px" width="200px">
+			<p>Tshering Samdrup</p>
+			<p>GURMA</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/logo.png" height="200px" width="200px">
+			<p>Tshering Samdrup</p>
+			<p>GURMA</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/logo.png" height="200px" width="200px">
+			<p>Tshering Samdrup</p>
+			<p>GURMA</p>
+		</div>
+	</div>
 </div>
 @endsection
