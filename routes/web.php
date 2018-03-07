@@ -16,7 +16,7 @@
 // });
 
 Route::get('/',function(){
-	return view('home');
+	return view('index');
 })->name('home');
 
 Route::get('/contact_us',function(){
@@ -31,16 +31,27 @@ Route::get('/lyrics',function(){
 	return view('song');
 })->name('lyrics');
 
+Route::get('/anthem',function(){
+	return view('anthem');
+})->name('anthem');
+
 
 Route::get('/privacy_policy',function(){
 	return view('privacy');
 })->name('privacy_policy');
 
 
+
+
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin_home', 'HomeController@index')->name('admin_home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin_home', 'HomeController@index')->name('admin_home');
+
+Auth::routes();
+
+Route::get('/admin_home', 'HomeController@index')->name('admin_home');

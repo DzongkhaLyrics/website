@@ -1,10 +1,10 @@
 <div  class="container-fluid footer-top">
   <div class="row ">
     <div class="col-centered">
-      <a href="{{route('submit_lyrics')}}">གླུ་གཞས་གསརཔ་གཏང་ས།</a>
-      <a href="">གློག་བརྙན་སྒྲ།</a>
-      <a href="">ཕེས་སྦུག</a>
-      <a href="{{route('contact_us')}}">འབྲེལ་བ་འབད་ས།</a>
+      <a href="{{route('submit_lyrics')}}" class="black_font">གླུ་གཞས་གསརཔ་གཏང་ས།</a>
+      <a href="" class="black_font">གློག་བརྙན་སྒྲ།</a>
+      <a href="" class="black_font">ཕེས་སྦུག</a>
+      <a href="{{route('contact_us')}}" class="black_font">འབྲེལ་བ་འབད་ས།</a>
     </div>
   </div>
   <div class="row">
@@ -12,11 +12,11 @@
       
     </div>
   </div>
-  <div class="row ">
+  <div class="row">
     <div class="col-centered">
-      <a href="">ཁྱབ་བསྒྲགས་འབད་ས།</a>
-      <a href="">ཞལ་འདེབས།</a>
-      <a href="{{route('privacy_policy')}}">སྒེར་གསང་སྲིད་བྱུས།</a>
+      <a href="" class="black_font">ཁྱབ་བསྒྲགས་འབད་ས།</a>
+      <a href="" class="black_font">ཞལ་འདེབས།</a>
+      <a href="{{route('privacy_policy')}}" class="black_font">སྒེར་གསང་སྲིད་བྱུས།</a>
     </div>
   </div>
   <div class="row ">
