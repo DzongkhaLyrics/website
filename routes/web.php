@@ -40,6 +40,10 @@ Route::get('/privacy_policy',function(){
 	return view('privacy');
 })->name('privacy_policy');
 
+Route::get('/advertise',function(){
+	return view('advertise');
+})->name('advertise');
+
 
 
 

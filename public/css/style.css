@@ -11,16 +11,22 @@ body{
   	-o-background-size: cover;
   	background-size: cover;
 }*/
-body,div,h2,li,a{
+body,div,li,a{
 	font-family: Wangdi29;
-	font-size: 34px;
+	font-size: 50px;
+}
+.general_header{
+	font-size: 60px;
 }
 #nav_bar{
 	background-color: #aec6e0;
 }
-div#header{
+div#header>a{
 	margin:10px 0 0 2px;
 	padding: 0;
+}
+.header_font{
+	font-size: 34px;
 }
 .col-centered{
 	float: none;
@@ -33,22 +39,32 @@ div#header{
 	height: 150px;
 }
 
-.footer-top{
+.footer{
 	background-color: #83addb;
-	width: 100%;
-}
-
-.footer-bottom{
-	background-color: #5689c4;
 	width: 100%;
 }
 
 .black_font{
 	color: #020202;
 }
-/*#footer{
-	background-color: #FE6A00;
-	widows: 100%;
-	margin-left: -15px;
-}*/
+.input_label_padding{
+	padding-bottom: -15px;
+}
+.input-group {
+  margin-top: 10px;
+}
+#background_frame{
+	background: url('../images/frame0.png') no-repeat;
+	border-radius: 20px;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
 
+#song_format{
+	padding: 5% 0 0 20%;
+}
+
+.privacy_text{
+	font-size: 30px;
+}
