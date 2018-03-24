@@ -19,9 +19,14 @@ Route::get('/',function(){
 	return view('index');
 })->name('home');
 
-Route::get('/contact_us',function(){
-	return view('contact');
-})->name('contact_us');
+Route::get('/contact_us',[
+	'uses'=>'ContactUsController@create',
+	'as'=>'contact_us'
+]);
+Route::post('/contact_us',[
+	'uses'=>'ContactUsController@store',
+	'as'=>'contact_us_store'
+]);
 
 Route::get('/submit_lyrics',function(){
 	return view('submit');

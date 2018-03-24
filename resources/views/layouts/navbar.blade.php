@@ -6,7 +6,7 @@
 	</button>
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<div class="col-md-12">
+		<div class="col-sm-12">
 			<a href="{{route('anthem')}}" class="black_font">མགུར་མ</a>&nbsp;&nbsp;
 			<a href="" class="black_font">གཞས་/གཞས་མོ</a>&nbsp;&nbsp;
 			<a href="" class="black_font"> གཞུང་སྒྲ</a>&nbsp;&nbsp;

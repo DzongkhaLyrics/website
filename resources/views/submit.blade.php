@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-	Contact Us
+	Submitting Lyrics
 @endsection
 @section('content')
 	<form action="#">
