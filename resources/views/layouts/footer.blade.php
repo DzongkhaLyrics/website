@@ -3,7 +3,7 @@
     <div class="col-centered">
       <a href="{{route('submit_lyrics')}}" class="black_font">གླུ་གཞས་གསརཔ་གཏང་ས།</a>
       <a href="" class="black_font">གློག་བརྙན་སྒྲ།</a>
-      <a href="" class="black_font">ཕེས་སྦུག</a>
+      <a href="{{URL::to('https://www.facebook.com/bhutaneselyrics/')}}" class="black_font">ཕེས་སྦུག</a>
       <a href="{{route('contact_us')}}" class="black_font">འབྲེལ་བ་འབད་ས།</a>
     </div>
   </div>

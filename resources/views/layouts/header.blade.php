@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div id="header">
-		<button class="btn btn-default "><a href="" class="black_font header_font">ཀ</a></button>
+		<button class="btn btn-default"><a href="" class="black_font header_font">ཀ</a></button>
 		<button class="btn btn-default "><a href="" class="black_font header_font">ཁ</a></button>
 		<button class="btn btn-default "><a href="" class="black_font header_font">ག</a></button>
 		<button class="btn btn-default "><a href="" class="black_font header_font" >ང</a></button>

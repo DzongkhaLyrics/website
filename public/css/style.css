@@ -19,10 +19,15 @@ body,div,li,a{
 	font-size: 60px;
 }
 #nav_bar{
-	background-color: #aec6e0;
+	/*background-color: #aec6e0;*/
+	background-color: #82CDFF;
+}
+#header{
+	background-color: #323233;
+
 }
 div#header>a{
-	margin:10px 0 0 2px;
+	margin:10px 0 0 0;
 	padding: 0;
 }
 .header_font{
